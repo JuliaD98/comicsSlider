@@ -1,0 +1,733 @@
+/* Adding fonts */
+
+/* montserrat-alternates-regular - latin */
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-alternates-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-alternates-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-alternates-700 - latin */
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/montserrat-alternates-v16-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-alternates-v16-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 18px;
+}
+
+.slide{
+    display: flex;
+    width: 1400px;
+    height: 800px;
+    flex: 1;
+    padding-left: 1420px;
+    padding-top: 0px;
+
+}
+
+.slide1{
+    display: flex;
+    width: 1400px;
+    height: 800px;
+    flex: 1;
+    padding: 0px;
+}
+
+.comicsContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.logoPic{
+    margin-left: 30px;
+}
+
+.headerWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.headerMenuList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuItem{
+    margin-right: 60px;
+}
+
+.menuLink{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    color: #14222D;
+    text-decoration: none;
+}
+
+.redItem{
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 192px;
+}
+
+.blueItem{
+    position: absolute;
+    margin-left: 267px;
+}
+
+.greyItem{
+    position: absolute;
+    max-width: 1400px;
+    margin: 0 auto; 
+    background-color: #FDC324;
+    margin-right: 605px;
+}
+
+.slide1Heading{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 110%;
+}
+
+.textBlock{
+    position: absolute;
+    margin-left: 192px;
+    margin-top: 132px;
+    margin-bottom: 516px;
+    margin-right: 432px;
+}
+
+.manPic{
+    position: absolute;
+    left: 856px;
+    top: 279px;
+}
+
+.text2Block{
+    position: absolute;
+    margin-left: 476px;
+    margin-top: 297px;
+    margin-bottom: 409px;
+    margin-right: 550px;
+    padding-top: 47px;
+}
+
+.slide1Text{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+.buttonItem{
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 316px;
+    margin-bottom: 369px;
+    margin-right: 987px;
+    padding-top: 16px;
+}
+
+.blackItem{
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 140px;
+    margin-bottom: 291px;
+}
+
+.whiteItem{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 155px;
+    margin-bottom: 310px;
+}
+
+/* Slide 2 style start */
+
+.yellowTopItem{
+    position: absolute;
+    margin-right: 890px;
+    margin-bottom: 720px;
+}
+
+.red2Item{
+    position: absolute;
+    margin-bottom: 251px;
+    margin-top: 156px;
+}
+
+.blue2Item{
+    position: absolute;
+    margin-right: 510px;
+    margin-top: 480px;
+}
+
+.yellowItem{
+    position: absolute;
+    left: 2328px;
+    top: 615px;
+}
+
+.greenItem{
+    position: absolute;
+    margin-left: 431px;
+    margin-bottom: 429px;
+}
+
+
+.dinamitPic{
+    position: absolute;
+    margin-left: 867px;
+    margin-right: 94px;
+    margin-top: 525px;
+}
+
+.bamPic{
+    position: absolute;
+    margin-left: 1146px;
+    margin-top: 623px;
+}
+
+.cloudPic{
+    position: absolute;
+    margin-left: 157px;
+    margin-top: 362px;
+    margin-right: 529px;
+}
+
+.black2Item{
+    position: absolute;
+    margin-right: 74px;
+    margin-top: 33px;
+    margin-bottom: 616px;
+}
+
+.white2Item{
+    position: absolute;
+    margin-top: 42px;
+    margin-bottom: 613px;
+    margin-right: 78px;
+}
+
+.slide2Heading{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 110%;
+}
+
+.slide2Text{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+.textBlockSlide2{
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 23px;
+    margin-right: 103px;
+    margin-bottom: 330px;
+}
+
+.text2BlockSlide2{
+    position: absolute;
+    margin-left: 495px;
+    margin-top: 233px;
+    margin-right: 469px;
+    margin-bottom: 320px;
+    padding-top: 20px;
+}
+
+/* Slide 2 style end */
+
+
+/* Slide 3 style start */
+
+.red3Item{
+    position: absolute;
+    margin-top: 419px;
+}
+
+.blue3Item{
+    position: absolute;
+    margin-right: 721px;
+    margin-bottom: 224px;
+}
+
+.lateItem{
+    position: absolute;
+    margin-left: 5px;
+    margin-bottom: 343px;
+    margin-right: 923px;
+}
+
+.green3Item{
+    position: absolute;
+    margin-left: 539px;
+}
+
+.angryPic{
+    position: absolute;
+    margin-left: 929px;
+    margin-top: 457px;
+    margin-right: 174px;
+    margin-bottom: 42px;
+
+}
+
+.black3Item{
+    position: absolute;
+    margin-left: 455px;
+    margin-top: 150px;
+    margin-bottom: 225px;
+}
+
+.white3Item{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 162px;
+    margin-bottom: 240px;
+}
+
+.textBlockSlide3{
+    position: absolute;
+    margin-left: 562px;
+    margin-top: 168px;
+    margin-right: 251px;
+    margin-bottom: 387px;
+}
+
+.slide3Heading{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 110%;
+}
+
+.text2BlockSlide3{
+    position: absolute;
+    margin-left: 563px;
+    margin-top: 430px;
+    margin-right: 437px;
+    margin-bottom: 317px;
+    padding-top: 20px;
+}
+
+.slide3Text{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+/* Slide 3 style end */
+
+
+
+/* Slide 4 style start */
+
+.s4Text1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1px;
+    margin-right: 136px;
+    margin-bottom: 509px;
+}
+
+.s4Text2{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 50px;
+    margin-right: 1px;
+    margin-bottom: 93px;
+}
+
+/* Slide 4 style end */
+
+
+
+/* Slide 5 style start */
+
+.red5Item{
+    position: absolute;
+    margin-bottom: 659px;
+    margin-right: 909px;
+}
+
+.green5Item{
+    position: absolute;
+    margin-left: 515px;
+    margin-bottom: 649px;
+}
+
+.popItem{
+    position: absolute;
+    margin-left: 491px;
+    margin-bottom: 565px;
+    margin-right: 569px;
+}
+
+.yellow5Item{
+    position: absolute;
+    margin-top: 179px;
+    margin-bottom: 400px;
+    margin-right: 296px;
+}
+
+.logo5Item{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 230px;
+    margin-bottom: 428px;
+    margin-right: 1126px;
+}
+
+.red5SItem{
+    position: absolute;
+    margin-left: 1108px;
+    margin-top: 179px;
+    margin-bottom: 428px;
+}
+
+.black5Item{
+    position: absolute;
+    margin-left: 723px;
+    margin-top: 106px;
+    margin-bottom: 396px;
+    margin-right: 60px;
+}
+
+.white5Item{
+    position: absolute;
+    margin-left: 734px;
+    margin-top: 112px;
+    margin-bottom: 448px;
+    margin-right: 78px;
+}
+
+.logo5Item{
+    position: absolute;
+    margin-left: 79px;
+    margin-top: 230px;
+    margin-bottom: 428px;
+    margin-right: 456px;
+}
+
+.button5Item{
+    position: absolute;
+    margin-left: 1028px;
+    margin-top: 221px;
+    margin-bottom: 448px;
+    margin-right: 139px;
+}
+
+.textBlockSlide5{
+    position: absolute;
+    margin-left: 778px;
+    margin-bottom: 855px;
+    margin-right: 111px;
+}
+
+.slide5Heading{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 110%;
+    margin-top: 121px;
+}
+
+
+.green5BItem{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 470px;
+    margin-right: 482px;
+}
+
+.s5greenText{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 505px;
+    margin-right: 494px;
+    margin-bottom: 153px;
+}
+
+.s5greenText2{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 79px;
+    margin-right: 955px;
+    margin-bottom: 202px;
+}
+
+.s5greenText3{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    position: absolute;
+    margin-top: 618px;
+    margin-left: 79px;
+    margin-right: 1029px;
+    margin-bottom: 132px;
+}
+
+.blue5Item{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 1px;
+    margin-right: 961px;
+}
+
+/* Slide 5 style end */
+
+
+/* Slide 6 style start */
+
+.blue6Item{
+    position: absolute;
+    margin-bottom: 400px;
+}
+
+.yellow6Item{
+    position: absolute;
+    margin-top: 213px;
+}
+
+.peopleItem{
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 543px;
+    width: 918px;
+    height: 648px;
+}
+
+.man6Pic{
+    position: absolute;
+    margin-top: 151px;
+    margin-right: 1098px;
+    margin-bottom: 341px;
+}
+
+.s6Text1{
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 152px;
+    margin-bottom: 580px;
+    margin-right: 20px;
+}
+
+.s6Text2{
+    position: absolute;
+    margin-top: 462px;
+    margin-bottom: 122px;
+    margin-right: 440px;
+}
+
+/* Slide 6 style end */
+
+
+
+/* Slide 7 style start */
+
+.yellow7Item{
+    position: absolute;
+    margin-left: 480px;
+}
+
+.cloud7bPic{
+    position: absolute;
+    margin-right: 1092px;
+    margin-bottom: 198px;
+    margin-top: 20px;
+}
+
+.cloud7Pic{
+    position: absolute;
+    margin-top: 173px;
+    margin-right: 497px;
+    mix-blend-mode: darken;
+}
+
+.s7Text1{
+    position: absolute;
+    margin-top: 34px;
+    margin-bottom: 475px;
+    margin-right: 276px;
+}
+
+.s7Text2{
+    position: absolute;
+    margin-top: 443px;
+    margin-left: 76px;
+    margin-bottom: 163px;
+    margin-right: 292px;
+}
+
+.man7Pic{
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 822px;
+}
+
+/* Slide 7 style end */
+
+
+/* Slide 8 style start */
+
+.greybgItem{
+    position: absolute;
+    max-width: 1400px;
+    margin: 0 auto; 
+}
+
+.logo8Item{
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 23px;
+    margin-bottom: 731px;
+    margin-right: 1194px;
+}
+
+.s8Text{
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 443px;
+    margin-bottom: 565px;
+    margin-right: 199px;
+}
+
+.s8Form{
+    position: absolute;
+    margin-top: 179px;
+    margin-right: 543px;
+}
+
+.button8Item{
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 101px;
+    margin-bottom: 35px;
+    margin-right: 1162px;
+}
+
+.s8close{
+    position: absolute;
+    margin-top: 212px;
+    margin-left: 789px;
+    margin-bottom: 564px;
+    margin-right: 587px;
+}
+
+.slide8FormHeading{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 110%;
+    position: absolute;
+    margin-top: 267px;
+    margin-left: 87px;
+    margin-bottom: 484px;
+    margin-right: 669px;
+}
+
+.slide8FormSubheading{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    position: absolute;
+    margin-top: 332px;
+    margin-left: 87px;
+    margin-bottom: 402px;
+    margin-right: 943px;
+}
+
+.slide8FormText{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 110%;
+    position: absolute;
+    margin-top: 626px;
+    margin-left: 88px;
+    margin-bottom: 148px;
+    margin-right: 1029px;
+}
+
+.formItem1{
+    position: absolute;
+    margin-top: 422px;
+    margin-left: 88px;
+    margin-bottom: 326px;
+    margin-right: 885px;
+}
+
+.formItem2{
+    position: absolute;
+    margin-top: 482px;
+    margin-left: 88px;
+    margin-bottom: 266px;
+    margin-right: 885px;
+}
+
+.formItem3{
+    position: absolute;
+    margin-top: 542px;
+    margin-left: 88px;
+    margin-bottom: 206px;
+    margin-right: 886px;
+}
+/* Slide 8 style end */
+
+
